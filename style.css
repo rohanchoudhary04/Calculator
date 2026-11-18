@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --input-ans-color : black;
+    --btn-color : black;
+    --base-color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--base-color);
+}
+
+.container {
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    margin: 2px 2px ;
+    color: var(--btn-color);
+}
+
+.btn {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-sign {
+    background-color: #FAA540;
+    color: white;
+}
+
+.btn-equal {
+    background-color: #0FBC53;
+    color: white;
+}
+
+.btn-clear {
+    color: #DB4E55;
+    background-color: #FACED0;
+}
+
+.btn-trigo {
+    height: 30px;
+    border-radius: 20px;
+}
+
+.task {
+    height: 50px;
+    width: 260px;
+    /* background-color: green; */
+    border: none;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+
+.answer {
+    height: 60px;
+    width:  260px;
+    font-size: 50px;
+    color: var(--input-ans-color);
+    border: none;
+}
+
+
